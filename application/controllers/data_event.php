@@ -11,7 +11,6 @@ class data_event extends CI_Controller {
 
     public function index()
     {
-        //memangil makanan_model
         $this->load->model('data_model');
 
         $data['jenis_lomba'] = $this->data_model->getData();
