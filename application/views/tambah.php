@@ -1,3 +1,52 @@
+    <style>
+          .tambahc
+{
+    
+    background-color: #7a17;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    font-size: 18px;
+
+}
+
+.tambahc [type=text]{
+    width: 95%;
+    color: #7a1717;
+    padding: 6px 7px;
+    border-radius: 10px;
+    
+    border: none;
+    
+    
+    cursor: pointer;
+}
+.tambahc [type=password] {
+    width: 95%;
+    color: #7a1717;
+    padding: 6px 7px;
+    border-radius: 10px;
+    
+    border: none;
+    
+    cursor: pointer;
+}
+.tambahc [type=submit]{
+    width: 30%;
+    color: white;
+    padding: 6px 7px;
+    border-radius: 10px;
+    
+    border: none;
+    background-color:  violet;
+    cursor: pointer;
+}
+    </style>
+    
+    
+    
     <div class="tambahc">
     <h1 class="h1t">Pendaftaran</h1>
 

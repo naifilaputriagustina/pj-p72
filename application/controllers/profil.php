@@ -17,10 +17,10 @@ class Profil extends CI_Controller {
 		$this->load->view('template/menu');
 		$this->load->view('profil', $data);
 		$this->load->view('template/footer');
-	}public function editProfil()
+	}
+	public function editProfil()
 	{
-        $data['user'] = $this->db->get_where('user',['username'
-        => $this->session->userdata('username')])->row_array();
+        $data['user'] = $this->db->get_where('user',['username' => $this->session->userdata('username')])->row_array();
 		$this->load->view('template/header');
 		$this->load->view('template/menu');
 		$this->load->view('edit_profil',$data);

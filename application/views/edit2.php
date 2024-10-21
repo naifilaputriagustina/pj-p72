@@ -1,4 +1,11 @@
-<div class="tambah">
+<style>
+    
+</style>
+
+
+
+
+<div class="edit">
     <h1>Edit Data Event</h1>
 
     <form action="<?= base_url ('data_event/update') ?>" method="POST">
